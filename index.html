@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Pets</title>
+  <script src="scripts/jquery-3.5.1.min.js"></script>
+  <script src="scripts/client.js"></script>
+  <!-- <link rel="stylesheet" href="styles/beachSand.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Bootstrap Pets</h1>
+  </header>
+  <main>
+    <h2>Bootstrap Pets</h2>
+    <section>
+      <h3>Add a Pet</h3>
+      <form>
+        <label>Pet Name:</label>
+        <input type="text" id="in-pet" />
+        <label>Owner:</label>
+        <input type="text" id="in-owner" />
+        <button id="btn-add">Add</button>
+        <button type="reset">Cancel</button>
+      </form>
+    </section>
+    <section>
+      <h3>All pets</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Pet Name</th>
+            <th>Owner</th>
+          </tr>
+        </thead>
+        <tbody id="out-pets">
+          <!-- jQuery will add stuff here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    &copy; 2020 - Prime Digital Academy
+  </footer>
+</body>
+</html>
